@@ -28,9 +28,7 @@ d = Discount("Loyalty", 50.0, 'llt')
 billingAd = Address('Example 20, Athens', 'billing')
 shippingAd = Address('Example 8, Athens','shipping')
 
-# Create the client
 s = SupplierClient('Babis2','client',[billingAd,shippingAd],[babis])
-# Register the client
 # s.makeSupplierClient('InsertOrUpdate')
 
 p = Product('Nike shoes',44.99,99.99,'1112256')
