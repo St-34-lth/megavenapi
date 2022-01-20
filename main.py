@@ -9,7 +9,7 @@ from SalesOrder import Sale
 
 # create the API client instance
 url = "https://api.megaventory.com/v2017a/"
-apikey = '2795d72f4d21ccdf@m128003'
+apikey = 'enteryourapikeyhere'
 mtest = MegavenApi(apikey,url)
 
 
