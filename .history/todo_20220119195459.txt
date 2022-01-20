@@ -1,0 +1,8 @@
+todo 
+
+1) fix product update to include both prices 
+
+2) make sales enquiry
+
+3) maybe save supplierclient responses to a json file for later use ?
+ 

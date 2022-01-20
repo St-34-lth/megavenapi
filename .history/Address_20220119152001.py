@@ -1,0 +1,15 @@
+
+from multiprocessing.sharedctypes import Value
+
+
+class Address:
+
+          def __init__(self,location,type,abbrvn=None):
+                    self.location = location 
+                    self.type = type
+                    if abbrvn != None:
+                              self.abbrvn = abbrvn
+          
+         
+                     
+                    
