@@ -2,9 +2,7 @@ from urllib.error import HTTPError
 from MegavenApi import MegavenApi
 import json 
 import requests 
-# A class to hold all data related to a SupplierClient in the megaventory API.
-# Its makeSupplierClient method registers the client with the API and its setSupplierClientInfo gets the associated data from the API if required.
-# On a side note, I could just save the response once the registry is performed. 
+
 class SupplierClient:
 
           

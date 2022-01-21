@@ -8,7 +8,7 @@ from pathlib import Path
 # Takes in an apikey and the url to be used.
 # All methods take in the relevant data entities associated with the API end points they use, and an action to be performed on the API.
 # Improvements could be made by making the methods more abstract and providing higher degree of options where necessary. 
-# For example in the getInfo methods, more than one filters could be used etc. In addition, I could use a session to improve performance etc. but I was not very experienced with using the requests.session object so I made the decision to proceed with simple requests. 
+# For example in the getInfo methods, more than one filters could be used etc.
 class MegavenApi:
           
           _apiKey = {'APIKEY':''}

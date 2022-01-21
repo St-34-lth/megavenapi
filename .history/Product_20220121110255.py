@@ -3,7 +3,6 @@ from MegavenApi import MegavenApi
 import requests 
 
 # A class to hold all data related to a product in the megaventory API
-# Its updateProduct method registers the product with the API, its setProductLocation, sets the product's location with an inventory in the API
 class Product:
 
           product_id=0
@@ -38,7 +37,12 @@ class Product:
                                         else:
                                                   pass         
                                                   
-                                                
+                                                  # self.inventoryLocationID = self.inventoryLocations[
+                                                  #           'mvInventoryLocations'][0]['InventoryLocationID']
+                                                  # self.inventoryLocationName = self.inventoryLocations[
+                                                  # 'mvInventoryLocations'][0]['InventoryLocationName']
+                                                  # self.inventoryLocationAddress = self.inventoryLocations[
+                                                  # 'mvInventoryLocations'][0]['InventoryLocationAddress']
                               self.inventoryLocationID = ''
                               self.inventoryLocationName = ''
                               self.inventoryLocationAddress = ''
